@@ -22,18 +22,17 @@
     <title>(～￣▽￣)～</title>
     <script>
         const settings = {
-            avatar: "2706992599", // 头像 URL，也可为 QQ 号 (e.g. 2706992599) 或 Github 用户名 (e.g. @alex3236)
-            name: "Alex3236", // 头像下的昵称
-            sign: "请我喝杯咖啡如何？( •̀ ω •́ )✧", // 个性签名 (提示文字)
-            background: "#F2FDFF", // 背景颜色代码，也可为图片 URL (e.g. https://www.dmoe.cc/random.php)
-            hide_badge_generator: false // 是否隐藏徽章生成器
+            avatar: "https://s1.ax1x.com/2022/05/07/OMApHP.jpg",
+            name: "覃咪咪",
+            sign: "( •̀ ω •́ )✧",
+            background: "#F2FDFF",
+            hide_badge_generator: false
         }
         const urls = {
-            // 你可以使用草料二维码等二维码识别工具识别你的支付二维码，获取链接
             // 把某个参数放空或删除，则不显示对应按钮
-            alipay: "https://qr.alipay.com/fkx19308fmhdodse4a7vu41?t=1638630319334", // 支付宝二维码链接
-            wechat: "wxp://f2f0ztGfw9u3WagBbDHikaGEZuDB_d9QsPzjcn1YWu_hzW8", // 微信二维码链接
-            qq: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ19vligoY3K2tjQY%3D_xxx_sign&u=2706992599&n=Alex3236" // QQ 二维码链接
+            alipay: "https://qr.alipay.com/fkx19308fmhdodse4a7vu41?t=1638630319334",
+            wechat: "wxp://f2f0ztGfw9u3WagBbDHikaGEZuDB_d9QsPzjcn1YWu_hzW8",
+            qq: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ19vligoY3K2tjQY%3D_xxx_sign&u=2706992599&n=Alex3236"
         }
     </script>
 </head>
@@ -95,18 +94,6 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer fixed-bottom">
-        <div class="container text-center mb-2">
-            <a id="badge_generator" href="badge.html" target="_blank" rel="noopener noreferrer"><small class="very-small">Generate a badge</small></a>
-            <br>
-            <p class="text-muted">
-                <script>document.write(settings.name);</script> &copy;<span>
-                    <script>document.write(/\d{4}/.exec(Date())[0]);</script>
-                </span>All rights reserved.
-            </p>
-        </div>
-    </footer>
 
     <!-- Scripts -->
     <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
